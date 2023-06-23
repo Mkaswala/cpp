@@ -4,10 +4,10 @@ int s()
 {
 	 int i,n;
   cout<<"Enter value  of n:";
-  cin>>" "<<n);
+  cin>>n;
   for(i=1;i<=n;i*=2)
   {
-	cout<<""<<i;
+	cout<<""<<i<<",";
   }	
 }
 int main()

@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int s()
 {
 	 int i,j;
@@ -7,9 +8,9 @@ int s()
     {
 	for(j=1;j<=25;j++)    // col
 	{
-		printf("%d ",j);
+		cout<<" "<<j;
 	}
-	printf("\n");
+	cout<<"\n";
     }
 }
 int main()   // nested for loop
