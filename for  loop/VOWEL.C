@@ -1,28 +1,31 @@
-#include<stdio.h>
-int s()
+#include<iostream>
+using namespace std;
+
+char s()
 {
  char ch,lwr,upr;
-    printf("Enter your ch:");
-    scanf("%c",&ch);
+    cout<<"Enter your ch:";
+    cin>>ch;
     lwr = (ch == 'a'|| ch == 'e'||ch == 'i'||ch== 'u'||ch== 'o');
     upr = (ch == 'A' || ch== 'E' || ch== 'I' || ch== 'U'|| ch== 'O');
-int  r()
+
+return ch;	
+}
+
+void r()
 {
     if(lwr || upr)
     {
-    printf("%c is vowel",ch);
+    cout<<ch<<" is vowel";
     }
     else
     {
-    printf("%c is consotant",ch);
+    cout<<ch<<" is consotant";
     }
 }
- return ch;	
-}
+
 int main()
 {
    s();
 	r();
 }
-
-

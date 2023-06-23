@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int s()
 {
 char c=65;
@@ -9,14 +10,14 @@ char c=65;
 	{
 	if(k%2==0)
 	{
-		printf("%c ",c+++32);
+		cout<<char(c+++32)<<" ";
 	}
 	else{
-		printf("%c ",c++);
+		cout<<char(c++)<<" ";
 	}
 	}
 
-	printf("\n");
+	cout<<endl;
   }	
 }
 int main()

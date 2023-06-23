@@ -1,15 +1,16 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int s()
 {
 int a;
-	printf("Enter value of a:");
-	scanf("%d",&a);
+	cout<<"Enter value of a:";
+	cin>>a;
 	if(a%5==0&&a%3==0)
 	{
-		printf("%d is divisible by 5 and 3",a);
+		cout<<a<<" is divisible by 5 and 3";
 	}
 	else{
-		printf("%d is not divisible by 5  and 3",a);
+		cout<<a<<" is not divisible by 5  and 3";
 	}	
 }
 int main()

@@ -1,15 +1,16 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int s()
 {
 	 int i,j;
     
-    for(i=2;i<=10;i+=2)  // row
+    for(i=2;i<=10;i+=2) 
     {
-	for(j=1;j<=5;j++)    // col
+	for(j=1;j<=5;j++)   
 	{
-		printf("%d ",i);
+		cout<<""<<i;
 	}
-	printf("\n");
+	cout<<" ";
     }
 }
 int main()   // nested for loop

@@ -1,12 +1,11 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
+#include<iostream>
+using namespace std;
+int main()
 {
 	int inches,centimeter;
-	clrscr();
-	printf("Enter the value of inches:");
-	scanf("%d",&inches);
+	cout<<"Enter the value of inches:";
+	cin>>inches;
 	centimeter = inches*2.54;
-	printf("%d  inches:%d centimeter",inches,centimeter);
-	getch();
+	cout<<inches<<" inches:"<<centimeter<<" centimeter";
+	return 0;
 }
