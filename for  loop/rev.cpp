@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-char str[15];
+char 
 int i,j;
 cout<<"enter a string:";
 cin>>str;
@@ -11,6 +11,7 @@ while(str[j]!='\0')
 {
     j++;
 }
+cout<<"\nyour reverse string is:";
 for(i=j;i>=0;i--)
 {
     cout<<""<<str[i];
