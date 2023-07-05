@@ -10,11 +10,13 @@ class result
     {
             cout<<"Enter maths marks :";
             cin>>m;
+            cout<<"\n"<<endl;
             cout<<"Enter science marks :";
             cin>>s;
+            cout<<"\n"<<endl;
             cout<<"Enter english marks :";
             cin>>e;
-                     
+    cout<<"\n"<<endl;  
         }
         
     
@@ -57,5 +59,5 @@ for(i=0;i<3;i++)
     cout<<"\n";
     a[i].get();
 }
-cout<<"\nCongratulations You Pass in Exam.....\10"<<endl;
+cout<<"\nCongratulations You Pass in Exam.....\3"<<endl;
 }
